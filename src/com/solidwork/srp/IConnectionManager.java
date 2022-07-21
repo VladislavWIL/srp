@@ -1,4 +1,6 @@
 package com.solidwork.srp;
 
-public class IConnectionManager {
+public interface IConnectionManager {
+    void dial(String phoneNumber);
+    void disconnet();
 }
